@@ -246,13 +246,12 @@ def key_pressed(event):
 
 
 # root
-height = 515
-width = 370
+height = 400
+width = 350
 
-bg = '#2C213D'
-fg = '#FFF4AB'
+bg = '#000111'
+fg = '#FFFFFF'
 upclr = dclr = fg
-
 
 
 root = Tk()

@@ -1,5 +1,5 @@
 from tkinter import *
-from Pillow import ImageTk
+from PIL import ImageTk, Image
 from pyperclip import copy
 import tkinter.messagebox as tmsg
 

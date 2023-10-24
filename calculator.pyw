@@ -1,5 +1,5 @@
 from tkinter import *
-from PIL import Image, ImageTk
+from PIL import ImageTk
 from pyperclip import copy
 import tkinter.messagebox as tmsg
 
@@ -86,6 +86,7 @@ def update(upscrn=True):
 
 def equal():
     global willclr
+    global cc
 
     cc = ccvalue.get()
     sc = scvalue.get()
@@ -115,6 +116,7 @@ def equal():
 
 def equation(sym):
     global willclr
+    global cc
 
     cc = ccvalue.get()
     sc = scvalue.get()
